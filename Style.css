@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Настройте прозрачность, изменив последнее значение */
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    max-width: 150px; /* Настройте размер по мере необходимости */
+}
+
+.main-nav ul, .extra-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li, .extra-nav li {
+   margin-right:10px; 
+}
+
+.main-nav a, .extra-nav a {
+   text-decoration:none; 
+   color:white; 
+   font-size: 1.8em; /* Увеличиваем размер шрифта */
+   padding: 5px 10px; /* Добавляем отступы вокруг ссылок */
+}
+
+.img-1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+img{
+    width: 1520px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2{
+    margin-top: 400px;
+    position: absolute;
+    line-height: 100px;
+    color: black;
+    font-size: 60px;
+    top: 0;
+    margin-left: 7%;
+}
+
+div.section{
+    position: absolute;
+    top:700px;
+   z-index: 2;
+}
