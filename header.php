@@ -3,7 +3,7 @@
         <img src="flipstyle.jpg" alt="Logo" class="logo">
         <nav class="main-nav">
             <ul>
-                <li><a href="glavnaya.php">Главная</a></li>
+                <li><a href="index.php">Главная</a></li>
                 <li><a href="catalog.php">Каталог</a></li>
                 <li><a href="novinki.php">Новинки</a></li>
                 <li><a href="korzina.php">Корзина</a></li>
